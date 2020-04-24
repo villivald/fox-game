@@ -1,9 +1,5 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "plugin:import/errors",
-    "prettier"
-  ],
+  "extends": ["eslint:recommended", "plugin:import/errors", "prettier"],
   "rules": {
     "no-console": 1
   },
@@ -16,5 +12,5 @@
     "es6": true,
     "browser": true,
     "node": true
-  }
+  },
 }
